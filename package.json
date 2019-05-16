@@ -1,13 +1,13 @@
 {
     "name": "first-nodejs",
     "version": "1.0.0",
-    "description": "First Node JS",
+    "description": "First Node JS Server",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": ["github", "nodejs", "first"],
+    "keywords": ["github", "nodejs", "express", "body-parser", "colors", "server", "first"],
     "author": {
         "name": "Arth K. Gajjar",
         "email": "iarthstar@gmail.com",
@@ -18,5 +18,10 @@
         "url": "https://github.com/iarthstar/first-nodejs.git"
     },
     "private": false,
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "colors": "^1.3.2",
+        "express": "^4.16.3"
+    }
 }
